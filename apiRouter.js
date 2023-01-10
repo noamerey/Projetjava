@@ -20,7 +20,7 @@ exports.router = (function() {
   apiRouter.route('/messages/').get(messagesCtrl.listMessages);
 
   // Moteur de recherche
-  apiRouteur.route('/recherche/)
+  apiRouteur.route('/recherche/).get(motor)
                    
   // Likes
  
