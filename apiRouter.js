@@ -25,6 +25,8 @@ exports.router = (function() {
   // Likes
  
   apiRouter.route('/messages/:messageId/vote/like').post(likesCtrl.likePost);
-
+  //dislikes
+  apiRouter.route('/messages/:messageId/vote/dislike').post(dislikesCtrl.dislikePost);
+  
   return apiRouter;
 })();
