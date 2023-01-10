@@ -131,7 +131,7 @@ module.exports = {
     });
   },
   getUserProfile: function(req, res) {
-    // Getting auth header
+    
     var headerAuth  = req.headers['authorization'];
     var userId      = jwtUtils.getUserId(headerAuth);
 
@@ -152,7 +152,7 @@ module.exports = {
     });
   },
   updateUserProfile: function(req, res) {
-    // Getting auth header
+   
     var headerAuth  = req.headers['authorization'];
     var userId      = jwtUtils.getUserId(headerAuth);
 
