@@ -29,6 +29,10 @@ module.exports = {
         allowNull: false,
         type: Sequelize.INTEGER
       },
+      dislikes: {
+        allowNull: false,
+        type: Sequelize.INTEGER
+      },
       attachment: {
         allowNull: true,
         type: Sequelize.STRING
