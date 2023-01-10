@@ -27,7 +27,9 @@ Pour les installation c'est super simple il vous faudra juste de telecharger tou
 Pour tester notre projet il faudra utiliser les fichiers fournis sur le gitub sur visual studio. Ils faudra lancé un serveur avec mamp et taper la commande sur un terminal nodemon server.js ensuite si tout est bon il faudra utiliser postman pour pouvoir tester notre api dans un premier temps il faut s'enregistrer sur l'application comme ceci: ![image](https://user-images.githubusercontent.com/95354215/211646672-6c673e8f-89e1-425f-9740-b9400b9466f2.png)
 Ensuite il faudra vous connecter pour récuperer le token de l'utilisateur comme ceci:![image](https://user-images.githubusercontent.com/95354215/211647351-b14f3f5a-0e43-47d9-bb6b-972a7b6c11c3.png) une fois le token copié il faudra le collé avec un Bearer ici pour pouvoir envoyé un message ![image](https://user-images.githubusercontent.com/95354215/211648186-0d7a8c0d-59a0-45d2-99c3-84e0a3ae24db.png)
 c'est ici(body) qu'on ecris le messages et le titre que l'on veut :![image](https://user-images.githubusercontent.com/95354215/211648436-dd9bf18a-a6a3-4e4b-9f22-d10d94d2f0e8.png)
-Ensuite ici on récuperer l'identifiant pour le stocker 
+Ensuite ici on récuperer les informations du l'utilisateur: ![image](https://user-images.githubusercontent.com/95354215/211652962-acc332a9-2213-4cc8-bf3b-f4b92ab5fefb.png)
+ici on peux voir le mur de messages avec les userid=l'utilisateur id=le nombres du messages et le messages en question avec la possibilité de faire apparaitre autant de message qu'on veut ![image](https://user-images.githubusercontent.com/95354215/211653801-0253e02b-177f-4607-a58e-d0968c7c733e.png)
+il y aussi une fonctionnalité qui est de pouvoir liké ou disliké. les likes et les dislikes vont apparaitre sur le mur  de publication. j'ai crée 3 autre users, 2 vont disliké et un va liké donc a chaque fois il faudra changer le token dans le bearer pour pouvoir liké sous le pseudo alexistest par exemple et en mettre l'id correspondant au messages: 
 
 
 
