@@ -2,7 +2,7 @@
 module.exports = (sequelize, DataTypes) => {
   var Message = sequelize.define('Resserche', {
     UserId:DataTypes.INTEGER,
-    id:DataTypes.INTEGER,  
+    RsId:DataTypes.INTEGER,  
     
     
   }, {
