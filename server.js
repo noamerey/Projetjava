@@ -13,7 +13,7 @@ server.use(bodyParser.json());
 //configurer les routes
 server.get('/', function (req,res) {
     res.setHeader('Content-Typer', 'text/html');
-    res.status(200).send('<h1>ben ntm</h1>'); 
+    res.status(200).send('<h1>ekip</h1>'); 
 });
 
 server.use('/api/', apiRouter);  
